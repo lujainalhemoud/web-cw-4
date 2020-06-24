@@ -1,6 +1,7 @@
-html, body{
-    margin: 0;
-    height: 100%;
+html,
+body {
+  margin: 0;
+  height: 100%;
 }
 
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
@@ -12,37 +13,71 @@ html, body{
     6. border radius */
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
-
-.sidebar{
-    /* pxالعرض هنا يجب ان يكون 120 */
+.flex {
+  display: flex;
+  height: 100%;
 }
 
-.header{
-    /* pxالطول هنا يجب ان يكون 80 */
+.co {
+  height: 100%;
+  margin-left: 3px;
+  margin-top: 5px;
 }
 
-.main{
+.sidebar {
+  /* pxالعرض هنا يجب ان يكون 120 */
 
+  background-color: black;
+  color: white;
+  height: 100%;
+  margin: 5px;
+  border-radius: 10px;
 }
 
-a{
-    color: darkgray;
-    /* اجعل شكل اللنك من غير خط اسفل الكلام */
+.header {
+  /* pxالطول هنا يجب ان يكون 80 */
+  height: 20%;
+  background-color: blue;
+  padding: 4px;
+  display: flex;
+  color: black;
+  border-radius: 10px;
+
+  /* float: right; */
+  /* flex-direction: 50%; */
+}
+
+.main {
+  height: 78%;
+  background-color: cyan;
+  /* margin: 5px; */
+  border-radius: 8px;
+  margin-top: 5px;
+
+  /* flex-direction: 50%; */
+}
+
+a {
+  color: darkgray;
+  /* اجعل شكل اللنك من غير خط اسفل الكلام */
+}
+
+a:hover {
+  color: aquamarine;
 }
 
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
 /* (p) غير محاذاة الفقرات لتصبح بالوسط */
 
-
-
-h1{
-    margin: 0;
-    margin-right: 5px;
+h1 {
+  margin: 0;
+  margin-right: 5px;
+  text-align: center;
 }
 
-h2{
-    margin: 0;
-    margin-left: 5px;
+h2 {
+  margin: 0;
+  margin-left: 5px;
+  text-align: center;
 }
-
